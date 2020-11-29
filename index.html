@@ -13084,13 +13084,13 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h6 id="int,-sting,-bool,-if-else,-list,-accessing-list,-insert-in-list,-delet-in-list">int, sting, bool, if else, list, accessing list, insert in list, delet in list<a class="anchor-link" href="#int,-sting,-bool,-if-else,-list,-accessing-list,-insert-in-list,-delet-in-list">&#182;</a></h6>
+<h5 id="int,-sting,-bool,-if-else,-list,-accessing-list,-insert-in-list,-delet-in-list,-tuples,-sets,-dictionaries,-conversion,-min-max">int, sting, bool, if else, list, accessing list, insert in list, delet in list, tuples, sets, dictionaries, conversion, min-max<a class="anchor-link" href="#int,-sting,-bool,-if-else,-list,-accessing-list,-insert-in-list,-delet-in-list,-tuples,-sets,-dictionaries,-conversion,-min-max">&#182;</a></h5><h5 id="pandas-data-frames,-pandas-functions">pandas data frames, pandas functions<a class="anchor-link" href="#pandas-data-frames,-pandas-functions">&#182;</a></h5>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
@@ -13110,7 +13110,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">karan1</span><span class="o">=</span><span class="mi">100</span>
@@ -13181,7 +13181,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13206,8 +13206,6 @@ div#notebook {
 karan      int       1000
 karan1     int       100
 pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-x          type      &lt;class &#39;int&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13238,15 +13236,9 @@ x          type      &lt;class &#39;int&#39;&gt;
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-15-bc92e42023d7&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> a<span class="ansi-yellow-intense-fg ansi-bold">,</span>b<span class="ansi-yellow-intense-fg ansi-bold">,</span>c<span class="ansi-yellow-intense-fg ansi-bold">,</span>d<span class="ansi-yellow-intense-fg ansi-bold">,</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span>f<span class="ansi-yellow-intense-fg ansi-bold">,</span>g<span class="ansi-yellow-intense-fg ansi-bold">,</span>h<span class="ansi-yellow-intense-fg ansi-bold">,</span>i<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">3</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">4</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">5</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">6</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">7</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">8</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">9.11</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>a<span class="ansi-yellow-intense-fg ansi-bold">,</span>b<span class="ansi-yellow-intense-fg ansi-bold">,</span>c<span class="ansi-yellow-intense-fg ansi-bold">,</span>d<span class="ansi-yellow-intense-fg ansi-bold">,</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span>f<span class="ansi-yellow-intense-fg ansi-bold">,</span>g<span class="ansi-yellow-intense-fg ansi-bold">,</span>h<span class="ansi-yellow-intense-fg ansi-bold">,</span>i<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: int() takes at most 2 arguments (9 given)</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1 2 3 4 5 6 7 8 9.11
+</pre>
 </div>
 </div>
 
@@ -13256,7 +13248,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13290,8 +13282,6 @@ i          float     9.11
 karan      int       1000
 karan1     int       100
 pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-x          type      &lt;class &#39;int&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13310,7 +13300,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">d</span><span class="p">,</span><span class="n">e</span><span class="p">,</span><span class="n">f</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">h</span><span class="p">,</span><span class="n">i</span>
@@ -13323,7 +13313,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13348,8 +13338,6 @@ x          type      &lt;class &#39;int&#39;&gt;
 karan      int       1000
 karan1     int       100
 pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-x          type      &lt;class &#39;int&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13360,7 +13348,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13385,8 +13373,6 @@ x          type      &lt;class &#39;int&#39;&gt;
 karan      int       1000
 karan1     int       100
 pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-x          type      &lt;class &#39;int&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13397,7 +13383,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">karan1</span> <span class="p">,</span> <span class="n">x</span>
@@ -13420,7 +13406,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-26-e61518b13b39&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-17-e61518b13b39&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">del</span> karan1 <span class="ansi-yellow-intense-fg ansi-bold">,</span> x
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;karan1&#39; is not defined</pre>
@@ -13433,7 +13419,7 @@ x          type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13453,11 +13439,13 @@ x          type      &lt;class &#39;int&#39;&gt;
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-karan      int       1000
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+karan      int          1000
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13468,7 +13456,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">d</span><span class="o">=</span><span class="n">karan</span>
@@ -13481,7 +13469,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">d</span>
@@ -13491,33 +13479,10 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-35-b048573058e5&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">del</span> d
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;d&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13537,11 +13502,13 @@ print      type      &lt;class &#39;int&#39;&gt;
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-karan      int       1000
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+karan      int          1000
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
 </pre>
 </div>
 </div>
@@ -13552,7 +13519,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="mi">1</span>
@@ -13567,7 +13534,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="o">+</span><span class="n">z</span><span class="p">)</span>
@@ -13583,15 +13550,13 @@ print      type      &lt;class &#39;int&#39;&gt;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt"></div>
 
 
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>14</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -13600,7 +13565,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span><span class="o">=</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="o">+</span><span class="n">z</span>
@@ -13617,15 +13582,13 @@ print      type      &lt;class &#39;int&#39;&gt;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt"></div>
 
 
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>14</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -13634,7 +13597,7 @@ print      type      &lt;class &#39;int&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13654,15 +13617,17 @@ print      type      &lt;class &#39;int&#39;&gt;
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-karan      int       1000
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-s          int       14
-x          tuple     n=2
-y          int       2
-z          int       11
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+karan      int          1000
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+x          int          1
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -13673,7 +13638,7 @@ z          int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">x</span>
@@ -13683,33 +13648,10 @@ z          int       11
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-47-52e2ca59f643&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">del</span> x
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;x&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13729,14 +13671,16 @@ z          int       11
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-karan      int       1000
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print      type      &lt;class &#39;int&#39;&gt;
-s          int       14
-y          int       2
-z          int       11
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+karan      int          1000
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -13747,7 +13691,7 @@ z          int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="mi">1</span>
@@ -13760,7 +13704,7 @@ z          int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="o">+</span><span class="n">z</span><span class="p">)</span>
@@ -13776,15 +13720,13 @@ z          int       11
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[50]:</div>
+    <div class="prompt"></div>
 
 
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>14</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -13793,7 +13735,7 @@ z          int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;karan&#39;</span>
@@ -13814,16 +13756,9 @@ z          int       11
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-58-c55e0edd7f06&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;karan&#39;</span>
-<span class="ansi-green-fg">      2</span> last<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;mehra&#39;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>name<span class="ansi-yellow-intense-fg ansi-bold">+</span>last<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>: invalid literal for int() with base 10: &#39;karanmehra&#39;</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>karanmehra
+</pre>
 </div>
 </div>
 
@@ -13833,7 +13768,7 @@ z          int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -13853,18 +13788,19 @@ z          int       11
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-karan       int       1000
-last        str       mehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-print       type      &lt;class &#39;int&#39;&gt;
-s           int       14
-x           int       1
-y           int       2
-z           int       11
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+karan      int          1000
+last       str          mehra
+name       str          karan
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+x          int          1
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -13875,7 +13811,7 @@ z           int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
@@ -13894,14 +13830,9 @@ z           int       11
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-62-9e09a5ffa60d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;name&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>: invalid literal for int() with base 10: &#39;name&#39;</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>name
+</pre>
 </div>
 </div>
 
@@ -13911,7 +13842,7 @@ z           int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">add</span><span class="o">=</span><span class="n">karan</span><span class="o">+</span><span class="n">last_name</span>
@@ -13934,12 +13865,12 @@ z           int       11
 <div class="output_subarea output_text output_error">
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-64-68e8ee2434cb&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-34-68e8ee2434cb&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>add<span class="ansi-yellow-intense-fg ansi-bold">=</span>karan<span class="ansi-yellow-intense-fg ansi-bold">+</span>last_name
 <span class="ansi-green-fg">      2</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>add<span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;</pre>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;last_name&#39; is not defined</pre>
 </div>
 </div>
 
@@ -13949,7 +13880,7 @@ z           int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s1</span><span class="o">=</span><span class="s2">&quot;helow&quot;</span>
@@ -13971,16 +13902,9 @@ z           int       11
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-68-88bd3f7982f8&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      2</span> s2<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;world&#34;</span>
-<span class="ansi-green-fg">      3</span> k<span class="ansi-yellow-intense-fg ansi-bold">=</span>s1<span class="ansi-yellow-intense-fg ansi-bold">+</span>s2
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 4</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>s<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>: invalid literal for int() with base 10: &#39;helowworld&#39;</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
 </div>
 </div>
 
@@ -13997,7 +13921,7 @@ z           int       11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14017,9 +13941,22 @@ z           int       11
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k          str          helowworld
+karan      int          1000
+last       str          mehra
+name       str          karan
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+s1         str          helow
+s2         str          world
+x          int          1
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -14030,7 +13967,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;karan&quot;</span>
@@ -14062,7 +13999,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">last_name</span><span class="o">=</span><span class="s2">&quot;mehra&quot;</span>
@@ -14094,7 +14031,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">_</span><span class="p">)</span>
@@ -14114,7 +14051,59 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>
+<pre>                                                     App             Category  \
+0         Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook       ART_AND_DESIGN   
+1                                    Coloring book moana       ART_AND_DESIGN   
+2      U Launcher Lite – FREE Live Cool Themes, Hide ...       ART_AND_DESIGN   
+3                                  Sketch - Draw &amp; Paint       ART_AND_DESIGN   
+4                  Pixel Draw - Number Art Coloring Book       ART_AND_DESIGN   
+...                                                  ...                  ...   
+10836                                   Sya9a Maroc - FR               FAMILY   
+10837                   Fr. Mike Schmitz Audio Teachings               FAMILY   
+10838                             Parkinson Exercices FR              MEDICAL   
+10839                      The SCP Foundation DB fr nn5n  BOOKS_AND_REFERENCE   
+10840      iHoroscope - 2018 Daily Horoscope &amp; Astrology            LIFESTYLE   
+
+       Rating  Reviews                Size     Installs  Type Price  \
+0         4.1      159                 19M      10,000+  Free     0   
+1         3.9      967                 14M     500,000+  Free     0   
+2         4.7    87510                8.7M   5,000,000+  Free     0   
+3         4.5   215644                 25M  50,000,000+  Free     0   
+4         4.3      967                2.8M     100,000+  Free     0   
+...       ...      ...                 ...          ...   ...   ...   
+10836     4.5       38                 53M       5,000+  Free     0   
+10837     5.0        4                3.6M         100+  Free     0   
+10838     0.0        3                9.5M       1,000+  Free     0   
+10839     4.5      114  Varies with device       1,000+  Free     0   
+10840     4.5   398307                 19M  10,000,000+  Free     0   
+
+      Content Rating                     Genres      Last Updated  \
+0           Everyone               Art &amp; Design   January 7, 2018   
+1           Everyone  Art &amp; Design;Pretend Play  January 15, 2018   
+2           Everyone               Art &amp; Design    August 1, 2018   
+3               Teen               Art &amp; Design      June 8, 2018   
+4           Everyone    Art &amp; Design;Creativity     June 20, 2018   
+...              ...                        ...               ...   
+10836       Everyone                  Education     July 25, 2017   
+10837       Everyone                  Education      July 6, 2018   
+10838       Everyone                    Medical  January 20, 2017   
+10839     Mature 17+          Books &amp; Reference  January 19, 2015   
+10840       Everyone                  Lifestyle     July 25, 2018   
+
+              Current Ver         Android Ver  
+0                   1.0.0        4.0.3 and up  
+1                   2.0.0        4.0.3 and up  
+2                   1.2.4        4.0.3 and up  
+3      Varies with device          4.2 and up  
+4                     1.1          4.4 and up  
+...                   ...                 ...  
+10836                1.48          4.1 and up  
+10837                   1          4.1 and up  
+10838                   1          2.2 and up  
+10839  Varies with device  Varies with device  
+10840  Varies with device  Varies with device  
+
+[10841 rows x 13 columns]
 </pre>
 </div>
 </div>
@@ -14125,7 +14114,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14145,11 +14134,23 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14160,7 +14161,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_name</span><span class="o">=</span><span class="n">name</span><span class="o">+</span><span class="n">last_name</span>
@@ -14173,7 +14174,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="p">)</span>
@@ -14211,7 +14212,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14231,12 +14232,24 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-full_name   str       karanmehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+full_name   str          karanmehra
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14254,7 +14267,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
@@ -14285,7 +14298,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">5</span><span class="p">])</span>
@@ -14316,7 +14329,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">[</span><span class="mi">2</span><span class="p">:],</span><span class="n">name</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span>
@@ -14354,7 +14367,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14374,12 +14387,24 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-full_name   str       karanmehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+full_name   str          karanmehra
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14390,7 +14415,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
@@ -14428,7 +14453,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="o">.</span><span class="n">upper</span><span class="p">()[:</span><span class="mi">3</span><span class="p">])</span>
@@ -14459,7 +14484,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="o">.</span><span class="n">upper</span><span class="p">()[:</span><span class="mi">3</span><span class="p">],</span><span class="n">full_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()[:</span><span class="mi">2</span><span class="p">])</span>
@@ -14497,7 +14522,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;r&quot;</span><span class="p">,</span><span class="s2">&quot;a&quot;</span><span class="p">))</span>
@@ -14535,7 +14560,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">full_name</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">))</span>
@@ -14573,7 +14598,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14593,12 +14618,24 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-full_name   str       karanmehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+full_name   str          karanmehra
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14609,7 +14646,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;</span><span class="mi">9</span><span class="p">)</span>
@@ -14640,7 +14677,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="n">name</span><span class="o">+</span><span class="n">last_name</span>
@@ -14653,7 +14690,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">==</span><span class="n">full_name</span><span class="p">)</span>
@@ -14684,7 +14721,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14704,13 +14741,25 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-a           str       karanmehra
-full_name   str       karanmehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+a           str          karanmehra
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+full_name   str          karanmehra
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14728,7 +14777,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">a</span><span class="o">==</span><span class="n">full_name</span><span class="p">:</span>
@@ -14769,7 +14818,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14789,13 +14838,25 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable    Type      Data/Info
--------------------------------
-a           str       karanmehra
-full_name   str       karanmehra
-last_name   str       mehra
-name        str       karan
-pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable    Type         Data/Info
+----------------------------------
+a           str          karanmehra
+data        DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+full_name   str          karanmehra
+k           str          helowworld
+karan       int          1000
+last        str          mehra
+last_name   str          mehra
+name        str          karan
+np          module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd          module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt         module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s           int          14
+s1          str          helow
+s2          str          world
+x           int          1
+y           int          2
+z           int          11
 </pre>
 </div>
 </div>
@@ -14806,7 +14867,7 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">a</span><span class="p">,</span> <span class="n">full_name</span><span class="p">,</span><span class="n">last_name</span><span class="p">,</span><span class="n">name</span>
@@ -14816,10 +14877,33 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-65-508e58a789d1&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">del</span> a<span class="ansi-yellow-intense-fg ansi-bold">,</span> full_name<span class="ansi-yellow-intense-fg ansi-bold">,</span>last_name<span class="ansi-yellow-intense-fg ansi-bold">,</span>name
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;a&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -14839,9 +14923,21 @@ pd          module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pan
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k          str          helowworld
+karan      int          1000
+last       str          mehra
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+s1         str          helow
+s2         str          world
+x          int          1
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -14852,7 +14948,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name1</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;karan&quot;</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="s2">&quot;sca&quot;</span><span class="p">]</span>
@@ -14873,9 +14969,16 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;sca&#39;]
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-62-ffffc51c71b6&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>name1<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#34;karan&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> b<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;sca&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
+<span class="ansi-green-fg">      2</span> b<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">21</span>
+<span class="ansi-green-fg">      3</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>name1<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;b&#39; is not defined</pre>
 </div>
 </div>
 
@@ -14885,7 +14988,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name2</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;abhi&quot;</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="s2">&quot;sca&quot;</span><span class="p">]</span>
@@ -14895,10 +14998,33 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-63-5b7424102f0d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>name2<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#34;abhi&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>b<span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-blue-intense-fg ansi-bold">&#34;sca&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;b&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">name1</span><span class="o">+</span><span class="n">name2</span><span class="p">)</span>
@@ -14917,9 +15043,14 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;sca&#39;, &#39;abhi&#39;, 21, &#39;sca&#39;]
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-64-7cf1c54d88ab&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>name1<span class="ansi-yellow-intense-fg ansi-bold">+</span>name2<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;name1&#39; is not defined</pre>
 </div>
 </div>
 
@@ -14936,7 +15067,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total</span><span class="o">=</span><span class="n">name1</span><span class="o">+</span><span class="n">name2</span>
@@ -14946,10 +15077,33 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-66-9d958c973beb&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>total<span class="ansi-yellow-intense-fg ansi-bold">=</span>name1<span class="ansi-yellow-intense-fg ansi-bold">+</span>name2
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;name1&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
@@ -14959,28 +15113,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;sca&#39;, &#39;abhi&#39;, 21, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1">##starts from 0 index</span>
@@ -14990,28 +15126,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>karan
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
@@ -15021,52 +15139,16 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>21
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;sca&#39;, &#39;abhi&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15080,7 +15162,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">21</span> <span class="ow">in</span> <span class="n">total</span><span class="p">:</span>
@@ -15094,24 +15176,6 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>age exist
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -15122,7 +15186,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
@@ -15132,28 +15196,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;sca&#39;, &#39;abhi&#39;, 21, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;bca&quot;</span>
@@ -15164,28 +15210,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;bca&#39;, &#39;abhi&#39;, 21, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;btec&quot;</span><span class="p">,</span> <span class="s2">&quot;bca&quot;</span><span class="p">]</span>
@@ -15196,28 +15224,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;btec&#39;, &#39;bca&#39;, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -15237,14 +15247,21 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-b          int       21
-name       list      n=3
-name1      list      n=3
-name2      list      n=3
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-total      list      n=5
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k          str          helowworld
+karan      int          1000
+last       str          mehra
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+s1         str          helow
+s2         str          world
+x          int          1
+y          int          2
+z          int          11
 </pre>
 </div>
 </div>
@@ -15255,31 +15272,13 @@ total      list      n=5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;btec&#39;, &#39;bca&#39;, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15293,7 +15292,7 @@ total      list      n=5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="s2">&quot;arun&quot;</span><span class="p">)</span>
@@ -15301,24 +15300,6 @@ total      list      n=5
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;btec&#39;, &#39;arun&#39;, &#39;bca&#39;, &#39;sca&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15332,7 +15313,7 @@ total      list      n=5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
@@ -15352,9 +15333,15 @@ total      list      n=5
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;karan&#39;, 21, &#39;btec&#39;, &#39;arun&#39;, &#39;bca&#39;, &#39;sca&#39;, &#39;x&#39;]
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-68-b3b6c01ac714&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>total<span class="ansi-yellow-intense-fg ansi-bold">.</span>insert<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">6</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-blue-intense-fg ansi-bold">&#34;x&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      2</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>total<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;total&#39; is not defined</pre>
 </div>
 </div>
 
@@ -15364,7 +15351,7 @@ total      list      n=5
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -15374,30 +15361,10 @@ total      list      n=5
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shoping_list</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;mango&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
@@ -15410,31 +15377,13 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">shoping_list</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;apple&#39;, &#39;mango&#39;, 1]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15448,36 +15397,13 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shoping_list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-8-be01dbfddf10&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>shoping_list<span class="ansi-yellow-intense-fg ansi-bold">.</span>remove<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;apple&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ValueError</span>: list.remove(x): x not in list</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15491,7 +15417,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shoping_list</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -15501,54 +15427,16 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[9]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>1</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">shoping_list</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;mango&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15562,7 +15450,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;q&quot;</span><span class="p">,</span><span class="s2">&quot;w&quot;</span><span class="p">,</span><span class="s2">&quot;e&quot;</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">,</span><span class="s2">&quot;t&quot;</span><span class="p">,</span><span class="s2">&quot;y&quot;</span><span class="p">]</span>
@@ -15574,33 +15462,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>q
-w
-e
-r
-t
-y
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
@@ -15608,29 +15473,6 @@ y
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>q
-w
-e
-r
-t
-y
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15644,7 +15486,7 @@ y
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -15654,30 +15496,10 @@ y
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;first&quot;</span><span class="p">,</span><span class="s2">&quot;second&quot;</span><span class="p">,</span><span class="s2">&quot;third&quot;</span><span class="p">]</span>
@@ -15690,7 +15512,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
@@ -15701,28 +15523,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;first&#39;, &#39;second&#39;, &#39;third&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">22</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
@@ -15735,7 +15539,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
@@ -15746,28 +15550,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0, 1, 1, 2, 2, 3, 10, 22]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span> <span class="n">reverse</span> <span class="o">=</span> <span class="kc">True</span> <span class="p">)</span>
@@ -15778,28 +15564,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[22, 10, 3, 2, 2, 1, 1, 0]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15812,31 +15580,13 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;third&#39;, &#39;second&#39;, &#39;first&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15850,7 +15600,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">c</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;karan&quot;</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
@@ -15863,7 +15613,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
@@ -15873,57 +15623,16 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>(&#39;karan&#39;, 22, True)
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-a          list      n=8
-c          tuple     n=3
-k          list      n=3
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15937,7 +15646,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">tuple</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;two&quot;</span><span class="p">,</span><span class="kc">True</span><span class="p">)</span>
@@ -15950,7 +15659,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_list</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">tuple</span><span class="p">)</span>
@@ -15963,31 +15672,13 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">new_list</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, &#39;two&#39;, True]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16001,7 +15692,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sets</span><span class="o">=</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;kiwi&quot;</span><span class="p">,</span><span class="s2">&quot;helow&quot;</span><span class="p">}</span>
@@ -16014,39 +15705,13 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-a          list      n=8
-c          tuple     n=3
-k          list      n=3
-new_list   list      n=3
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-sets       set       {1, &#39;helow&#39;, &#39;kiwi&#39;}
-tuple      tuple     n=3
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16060,7 +15725,7 @@ tuple      tuple     n=3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -16070,30 +15735,10 @@ tuple      tuple     n=3
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type      Data/Info
-------------------------------
-pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dic</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;karan&quot;</span><span class="p">,</span> <span class="s2">&quot;age&quot;</span><span class="p">:</span><span class="mi">22</span> <span class="p">}</span>
@@ -16106,7 +15751,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
@@ -16116,35 +15761,17 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{&#39;name&#39;: &#39;karan&#39;, &#39;age&#39;: 22}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="funcrions">funcrions<a class="anchor-link" href="#funcrions">&#182;</a></h3>
+<h3 id="functions">functions<a class="anchor-link" href="#functions">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">f1</span><span class="p">():</span>
@@ -16153,24 +15780,6 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>karan
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16184,7 +15793,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="nb">min</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">25</span><span class="p">)</span>
@@ -16198,7 +15807,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -16206,25 +15815,6 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>5
-9
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16238,7 +15828,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -16251,7 +15841,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;karan&quot;</span><span class="p">])</span>
@@ -16264,7 +15854,7 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -16274,28 +15864,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;1&#39; &#39;karan&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
@@ -16305,36 +15877,10 @@ pd         module    &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pand
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type        Data/Info
---------------------------------
-a          ndarray     2: 2 elems, type `&lt;U11`, 88 bytes
-dic        dict        n=2
-f1         function    &lt;function f1 at 0x05BE7BF8&gt;
-np         module      &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
-pd         module      &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-x          int         5
-y          int         9
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -16344,62 +15890,16 @@ y          int         9
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[13]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>numpy.ndarray</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span> <span class="o">%</span><span class="k">whos</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type        Data/Info
---------------------------------
-a          ndarray     2: 2 elems, type `&lt;U11`, 88 bytes
-dic        dict        n=2
-f1         function    &lt;function f1 at 0x05BE7BF8&gt;
-np         module      &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
-pd         module      &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-x          int         5
-y          int         9
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16413,7 +15913,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -16426,7 +15926,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xpoints</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -16440,7 +15940,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xpoints</span><span class="p">,</span><span class="n">ypoints</span><span class="p">)</span>
@@ -16476,7 +15976,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xpoints</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
@@ -16490,7 +15990,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ypoints</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">)</span>
@@ -16506,13 +16006,13 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[73]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x101f8c40&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x16d4b38&gt;]</pre>
 </div>
 
 </div>
@@ -16538,7 +16038,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ypoints</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
@@ -16564,7 +16064,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ypoints</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">)</span>
@@ -16580,13 +16080,13 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[27]:</div>
+    <div class="prompt output_prompt">Out[75]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x10265c10&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x17113d0&gt;]</pre>
 </div>
 
 </div>
@@ -16619,7 +16119,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;googleplaystore.csv&#39;</span><span class="p">)</span>
@@ -16632,7 +16132,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;E:\Python\googleplaystore.csv&quot;</span><span class="p">)</span>
@@ -16716,7 +16216,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
@@ -16732,7 +16232,967 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[78]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>App</th>
+      <th>Category</th>
+      <th>Rating</th>
+      <th>Reviews</th>
+      <th>Size</th>
+      <th>Installs</th>
+      <th>Type</th>
+      <th>Price</th>
+      <th>Content Rating</th>
+      <th>Genres</th>
+      <th>Last Updated</th>
+      <th>Current Ver</th>
+      <th>Android Ver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.1</td>
+      <td>159</td>
+      <td>19M</td>
+      <td>10,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design</td>
+      <td>January 7, 2018</td>
+      <td>1.0.0</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Coloring book moana</td>
+      <td>ART_AND_DESIGN</td>
+      <td>3.9</td>
+      <td>967</td>
+      <td>14M</td>
+      <td>500,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design;Pretend Play</td>
+      <td>January 15, 2018</td>
+      <td>2.0.0</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>U Launcher Lite – FREE Live Cool Themes, Hide ...</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.7</td>
+      <td>87510</td>
+      <td>8.7M</td>
+      <td>5,000,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design</td>
+      <td>August 1, 2018</td>
+      <td>1.2.4</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sketch - Draw &amp; Paint</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.5</td>
+      <td>215644</td>
+      <td>25M</td>
+      <td>50,000,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Teen</td>
+      <td>Art &amp; Design</td>
+      <td>June 8, 2018</td>
+      <td>Varies with device</td>
+      <td>4.2 and up</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Pixel Draw - Number Art Coloring Book</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.3</td>
+      <td>967</td>
+      <td>2.8M</td>
+      <td>100,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design;Creativity</td>
+      <td>June 20, 2018</td>
+      <td>1.1</td>
+      <td>4.4 and up</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>10836</th>
+      <td>Sya9a Maroc - FR</td>
+      <td>FAMILY</td>
+      <td>4.5</td>
+      <td>38</td>
+      <td>53M</td>
+      <td>5,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Education</td>
+      <td>July 25, 2017</td>
+      <td>1.48</td>
+      <td>4.1 and up</td>
+    </tr>
+    <tr>
+      <th>10837</th>
+      <td>Fr. Mike Schmitz Audio Teachings</td>
+      <td>FAMILY</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>3.6M</td>
+      <td>100+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Education</td>
+      <td>July 6, 2018</td>
+      <td>1</td>
+      <td>4.1 and up</td>
+    </tr>
+    <tr>
+      <th>10838</th>
+      <td>Parkinson Exercices FR</td>
+      <td>MEDICAL</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>9.5M</td>
+      <td>1,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Medical</td>
+      <td>January 20, 2017</td>
+      <td>1</td>
+      <td>2.2 and up</td>
+    </tr>
+    <tr>
+      <th>10839</th>
+      <td>The SCP Foundation DB fr nn5n</td>
+      <td>BOOKS_AND_REFERENCE</td>
+      <td>4.5</td>
+      <td>114</td>
+      <td>Varies with device</td>
+      <td>1,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Mature 17+</td>
+      <td>Books &amp; Reference</td>
+      <td>January 19, 2015</td>
+      <td>Varies with device</td>
+      <td>Varies with device</td>
+    </tr>
+    <tr>
+      <th>10840</th>
+      <td>iHoroscope - 2018 Daily Horoscope &amp; Astrology</td>
+      <td>LIFESTYLE</td>
+      <td>4.5</td>
+      <td>398307</td>
+      <td>19M</td>
+      <td>10,000,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Lifestyle</td>
+      <td>July 25, 2018</td>
+      <td>Varies with device</td>
+      <td>Varies with device</td>
+    </tr>
+  </tbody>
+</table>
+<p>10841 rows × 13 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="pandas-function">pandas function<a class="anchor-link" href="#pandas-function">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[79]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>App</th>
+      <th>Category</th>
+      <th>Rating</th>
+      <th>Reviews</th>
+      <th>Size</th>
+      <th>Installs</th>
+      <th>Type</th>
+      <th>Price</th>
+      <th>Content Rating</th>
+      <th>Genres</th>
+      <th>Last Updated</th>
+      <th>Current Ver</th>
+      <th>Android Ver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.1</td>
+      <td>159</td>
+      <td>19M</td>
+      <td>10,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design</td>
+      <td>January 7, 2018</td>
+      <td>1.0.0</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Coloring book moana</td>
+      <td>ART_AND_DESIGN</td>
+      <td>3.9</td>
+      <td>967</td>
+      <td>14M</td>
+      <td>500,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design;Pretend Play</td>
+      <td>January 15, 2018</td>
+      <td>2.0.0</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>U Launcher Lite – FREE Live Cool Themes, Hide ...</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.7</td>
+      <td>87510</td>
+      <td>8.7M</td>
+      <td>5,000,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design</td>
+      <td>August 1, 2018</td>
+      <td>1.2.4</td>
+      <td>4.0.3 and up</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sketch - Draw &amp; Paint</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.5</td>
+      <td>215644</td>
+      <td>25M</td>
+      <td>50,000,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Teen</td>
+      <td>Art &amp; Design</td>
+      <td>June 8, 2018</td>
+      <td>Varies with device</td>
+      <td>4.2 and up</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Pixel Draw - Number Art Coloring Book</td>
+      <td>ART_AND_DESIGN</td>
+      <td>4.3</td>
+      <td>967</td>
+      <td>2.8M</td>
+      <td>100,000+</td>
+      <td>Free</td>
+      <td>0</td>
+      <td>Everyone</td>
+      <td>Art &amp; Design;Creativity</td>
+      <td>June 20, 2018</td>
+      <td>1.1</td>
+      <td>4.4 and up</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[80]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(10841, 13)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">index</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[81]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>RangeIndex(start=0, stop=10841, step=1)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[82]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Index([&#39;App&#39;, &#39;Category&#39;, &#39;Rating&#39;, &#39;Reviews&#39;, &#39;Size&#39;, &#39;Installs&#39;, &#39;Type&#39;,
+       &#39;Price&#39;, &#39;Content Rating&#39;, &#39;Genres&#39;, &#39;Last Updated&#39;, &#39;Current Ver&#39;,
+       &#39;Android Ver&#39;],
+      dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[83]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>App                object
+Category           object
+Rating            float64
+Reviews             int64
+Size               object
+Installs           object
+Type               object
+Price              object
+Content Rating     object
+Genres             object
+Last Updated       object
+Current Ver        object
+Android Ver        object
+dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k          str          helowworld
+karan      int          1000
+last       str          mehra
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+s1         str          helow
+s2         str          world
+x          int          1
+xpoints    ndarray      2: 2 elems, type `int32`, 8 bytes
+y          int          2
+ypoints    ndarray      4: 4 elems, type `int32`, 16 bytes
+z          int          11
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>   <span class="c1">#only fo columns </span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[85]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([&#39;Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook&#39;,
+       &#39;Coloring book moana&#39;,
+       &#39;U Launcher Lite – FREE Live Cool Themes, Hide Apps&#39;, ...,
+       &#39;Parkinson Exercices FR&#39;, &#39;The SCP Foundation DB fr nn5n&#39;,
+       &#39;iHoroscope - 2018 Daily Horoscope &amp; Astrology&#39;], dtype=object)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>  
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[86]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>9660</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>  
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[87]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>App               9660
+Category            34
+Rating              40
+Reviews           6001
+Size               462
+Installs            22
+Type                 2
+Price               92
+Content Rating       6
+Genres             119
+Last Updated      1378
+Current Ver       2783
+Android Ver         33
+dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[88]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>App               10841
+Category          10841
+Rating            10841
+Reviews           10841
+Size              10841
+Installs          10841
+Type              10840
+Price             10841
+Content Rating    10841
+Genres            10841
+Last Updated      10841
+Current Ver       10840
+Android Ver       10839
+dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 10841 entries, 0 to 10840
+Data columns (total 13 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   App             10841 non-null  object 
+ 1   Category        10841 non-null  object 
+ 2   Rating          10841 non-null  float64
+ 3   Reviews         10841 non-null  int64  
+ 4   Size            10841 non-null  object 
+ 5   Installs        10841 non-null  object 
+ 6   Type            10840 non-null  object 
+ 7   Price           10841 non-null  object 
+ 8   Content Rating  10841 non-null  object 
+ 9   Genres          10841 non-null  object 
+ 10  Last Updated    10841 non-null  object 
+ 11  Current Ver     10840 non-null  object 
+ 12  Android Ver     10839 non-null  object 
+dtypes: float64(1), int64(1), object(11)
+memory usage: 635.3+ KB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Variable   Type         Data/Info
+---------------------------------
+data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
+k          str          helowworld
+karan      int          1000
+last       str          mehra
+np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
+pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
+plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
+s          int          14
+s1         str          helow
+s2         str          world
+x          int          1
+xpoints    ndarray      2: 2 elems, type `int32`, 8 bytes
+y          int          2
+ypoints    ndarray      4: 4 elems, type `int32`, 16 bytes
+z          int          11
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Google-play-store-data-set-analysis">Google play store data set analysis<a class="anchor-link" href="#Google-play-store-data-set-analysis">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;E:\Python\googleplaystore.csv&quot;</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>                                                     App             Category  \
+0         Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook       ART_AND_DESIGN   
+1                                    Coloring book moana       ART_AND_DESIGN   
+2      U Launcher Lite – FREE Live Cool Themes, Hide ...       ART_AND_DESIGN   
+3                                  Sketch - Draw &amp; Paint       ART_AND_DESIGN   
+4                  Pixel Draw - Number Art Coloring Book       ART_AND_DESIGN   
+...                                                  ...                  ...   
+10836                                   Sya9a Maroc - FR               FAMILY   
+10837                   Fr. Mike Schmitz Audio Teachings               FAMILY   
+10838                             Parkinson Exercices FR              MEDICAL   
+10839                      The SCP Foundation DB fr nn5n  BOOKS_AND_REFERENCE   
+10840      iHoroscope - 2018 Daily Horoscope &amp; Astrology            LIFESTYLE   
+
+       Rating  Reviews                Size     Installs  Type Price  \
+0         4.1      159                 19M      10,000+  Free     0   
+1         3.9      967                 14M     500,000+  Free     0   
+2         4.7    87510                8.7M   5,000,000+  Free     0   
+3         4.5   215644                 25M  50,000,000+  Free     0   
+4         4.3      967                2.8M     100,000+  Free     0   
+...       ...      ...                 ...          ...   ...   ...   
+10836     4.5       38                 53M       5,000+  Free     0   
+10837     5.0        4                3.6M         100+  Free     0   
+10838     0.0        3                9.5M       1,000+  Free     0   
+10839     4.5      114  Varies with device       1,000+  Free     0   
+10840     4.5   398307                 19M  10,000,000+  Free     0   
+
+      Content Rating                     Genres      Last Updated  \
+0           Everyone               Art &amp; Design   January 7, 2018   
+1           Everyone  Art &amp; Design;Pretend Play  January 15, 2018   
+2           Everyone               Art &amp; Design    August 1, 2018   
+3               Teen               Art &amp; Design      June 8, 2018   
+4           Everyone    Art &amp; Design;Creativity     June 20, 2018   
+...              ...                        ...               ...   
+10836       Everyone                  Education     July 25, 2017   
+10837       Everyone                  Education      July 6, 2018   
+10838       Everyone                    Medical  January 20, 2017   
+10839     Mature 17+          Books &amp; Reference  January 19, 2015   
+10840       Everyone                  Lifestyle     July 25, 2018   
+
+              Current Ver         Android Ver  
+0                   1.0.0        4.0.3 and up  
+1                   2.0.0        4.0.3 and up  
+2                   1.2.4        4.0.3 and up  
+3      Varies with device          4.2 and up  
+4                     1.1          4.4 and up  
+...                   ...                 ...  
+10836                1.48          4.1 and up  
+10837                   1          4.1 and up  
+10838                   1          2.2 and up  
+10839  Varies with device  Varies with device  
+10840  Varies with device  Varies with device  
+
+[10841 rows x 13 columns]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -16961,7 +17421,7 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16977,7 +17437,7 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[92]:</div>
 
 
 
@@ -17109,10 +17569,10 @@ y          int         9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[93]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17125,13 +17585,77 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[93]:</div>
 
 
 
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<div class="output_text output_subarea output_execute_result">
-<pre>(10841, 13)</pre>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rating</th>
+      <th>Reviews</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>10841.000000</td>
+      <td>1.084100e+04</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3.621612</td>
+      <td>4.441119e+05</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>1.514584</td>
+      <td>2.927629e+06</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>3.700000</td>
+      <td>3.800000e+01</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>4.200000</td>
+      <td>2.094000e+03</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>4.500000</td>
+      <td>5.476800e+04</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>5.000000</td>
+      <td>7.815831e+07</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
 
 </div>
@@ -17139,13 +17663,20 @@ y          int         9
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Q)1.most-popular-catagorie">Q)1.most popular catagorie<a class="anchor-link" href="#Q)1.most-popular-catagorie">&#182;</a></h1>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[94]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">index</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">boxplot</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17158,133 +17689,30 @@ y          int         9
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[20]:</div>
+    <div class="prompt output_prompt">Out[94]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>RangeIndex(start=0, stop=10841, step=1)</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x17389d0&gt;</pre>
 </div>
 
 </div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[21]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Index([&#39;App&#39;, &#39;Category&#39;, &#39;Rating&#39;, &#39;Reviews&#39;, &#39;Size&#39;, &#39;Installs&#39;, &#39;Type&#39;,
-       &#39;Price&#39;, &#39;Content Rating&#39;, &#39;Genres&#39;, &#39;Last Updated&#39;, &#39;Current Ver&#39;,
-       &#39;Android Ver&#39;],
-      dtype=&#39;object&#39;)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[25]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>App                object
-Category           object
-Rating            float64
-Reviews             int64
-Size               object
-Installs           object
-Type               object
-Price              object
-Content Rating     object
-Genres             object
-Last Updated       object
-Current Ver        object
-Android Ver        object
-dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">whos</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
 
 <div class="output_area">
 
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Variable   Type         Data/Info
----------------------------------
-data       DataFrame                             &lt;...&gt;[10841 rows x 13 columns]
-np         module       &lt;module &#39;numpy&#39; from &#39;c:\&lt;...&gt;ges\\numpy\\__init__.py&#39;&gt;
-pd         module       &lt;module &#39;pandas&#39; from &#39;c:&lt;...&gt;es\\pandas\\__init__.py&#39;&gt;
-plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\\pyplot.py&#39;&gt;
-</pre>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
+
 </div>
 
 </div>
@@ -17293,10 +17721,10 @@ plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[95]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>   <span class="c1">#only fo columns </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17309,50 +17737,30 @@ plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[95]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;Photo Editor &amp; Candy Camera &amp; Grid &amp; ScrapBook&#39;,
-       &#39;Coloring book moana&#39;,
-       &#39;U Launcher Lite – FREE Live Cool Themes, Hide Apps&#39;, ...,
-       &#39;Parkinson Exercices FR&#39;, &#39;The SCP Foundation DB fr nn5n&#39;,
-       &#39;iHoroscope - 2018 Daily Horoscope &amp; Astrology&#39;], dtype=object)</pre>
+<pre>array([[&lt;matplotlib.axes._subplots.AxesSubplot object at 0x01760640&gt;,
+        &lt;matplotlib.axes._subplots.AxesSubplot object at 0x018A5640&gt;]],
+      dtype=object)</pre>
 </div>
 
 </div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>  
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt"></div>
 
 
 
 
-<div class="output_text output_subarea output_execute_result">
-<pre>9660</pre>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
 
 </div>
@@ -17363,99 +17771,7 @@ plt        module       &lt;module &#39;matplotlib.pyplo&lt;...&gt;\\matplotlib\
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>  
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[31]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>App               9660
-Category            34
-Rating              40
-Reviews           6001
-Size               462
-Installs            22
-Type                 2
-Price               92
-Content Rating       6
-Genres             119
-Last Updated      1378
-Current Ver       2783
-Android Ver         33
-dtype: int64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[33]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>App               10841
-Category          10841
-Rating            10841
-Reviews           10841
-Size              10841
-Installs          10841
-Type              10840
-Price             10841
-Content Rating    10841
-Genres            10841
-Last Updated      10841
-Current Ver       10840
-Android Ver       10839
-dtype: int64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[96]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -17496,6 +17812,382 @@ Data columns (total 13 columns):
 dtypes: float64(1), int64(1), object(11)
 memory usage: 635.3+ KB
 </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="data-cleaning">data cleaning<a class="anchor-link" href="#data-cleaning">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[97]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>App</th>
+      <th>Category</th>
+      <th>Rating</th>
+      <th>Reviews</th>
+      <th>Size</th>
+      <th>Installs</th>
+      <th>Type</th>
+      <th>Price</th>
+      <th>Content Rating</th>
+      <th>Genres</th>
+      <th>Last Updated</th>
+      <th>Current Ver</th>
+      <th>Android Ver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>10836</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10837</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10838</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10839</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10840</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>10841 rows × 13 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[98]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>App               0
+Category          0
+Rating            0
+Reviews           0
+Size              0
+Installs          0
+Type              1
+Price             0
+Content Rating    0
+Genres            0
+Last Updated      0
+Current Ver       1
+Android Ver       2
+dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;Rating&quot;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0        4.1
+1        3.9
+2        4.7
+3        4.5
+4        4.3
+        ... 
+10836    4.5
+10837    5.0
+10838    0.0
+10839    4.5
+10840    4.5
+Name: Rating, Length: 10841, dtype: float64
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">boxplot</span><span class="p">([</span><span class="n">Rating</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-102-588830065b56&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>data<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>Rating<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;Rating&#39; is not defined</pre>
 </div>
 </div>
 
